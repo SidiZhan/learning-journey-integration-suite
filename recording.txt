@@ -1,0 +1,9 @@
+1. Partner Certification Academy for SAP Integration Suite (Asia) - Day 1
+- date: 6/12/2023
+- password:
+- recording: 
+
+2. Partner Certification Academy for SAP Integration Suite (Asia) - Day 2
+- date: 6/14/2023
+- password:
+- recording: 
