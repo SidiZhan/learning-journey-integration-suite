@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "a4aa657c-6e28-408d-a4f1-1392722c1733",
+		"name": "DelayedDelivery_Process_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44730319"
+	},
+	"item": [
+		{
+			"name": "call CPI endpoint",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{your-username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\">\n <soapenv:Header/>\n <soapenv:Body>\n <List>\n <Product>\n <ProductID>HT-2001</ProductID>\n </Product>\n <Product>\n <ProductID>HT-1020</ProductID>\n </Product>\n <Product>\n <ProductID>HT-XXX</ProductID>\n </Product>\n </List>\n </soapenv:Body>\n</soapenv:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{from-api-proxy}}/cxf/receive/message/DelayedDelivery_ProductIDs_20250507_1",
+					"protocol": "https",
+					"host": [
+						"{{from-api-proxy}}"
+					],
+					"path": [
+						"cxf",
+						"receive",
+						"message",
+						"DelayedDelivery_ProductIDs_20250507_1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
