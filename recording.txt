@@ -1,9 +1,0 @@
-1. Partner Certification Academy for SAP Integration Suite (Asia) - Day 1
-- date: 6/12/2023
-Zoom Password: 	801811
-shared_screen	https://sap.zoom.us/rec/play/a4R95WRrbm6SA8Ot-wAe1vXc-9DzMCFtbuH9pjguj1_oi5q7jFG-IunZdtczrsF9sjf1S7b70xOYH8Bm.k-EoGQfk-iV_bYUS
-
-2. Partner Certification Academy for SAP Integration Suite (Asia) - Day 2
-- date: 6/14/2023
-Zoom Password: 	647376
-shared_screen	https://sap.zoom.us/rec/play/2usbYeTGt2-JqclZNOIzj5H9myhAq43G6wXkHXjRTcel-5jRWh-y1Kx5lzje8ZNXjBV0lyCYulxkxtr5.r7mDFEy4Ff0d0ekR
