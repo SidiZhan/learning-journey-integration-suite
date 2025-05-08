@@ -4,7 +4,7 @@ this is for the temporary sharing of learning materials of the sap learning jour
 the official sharing will be sent out to your registration email box after all the sessions are completed.
 
 
-- slides in `Partner Certification Academies - Developing with SAP Integration Suite - APJ.pdf`
-- recording in `in recording.txt`
+- you can donwload and import the `cloud integration package.zip`
+- after replace on the APIs used in the package to yours, you can call the iFlow as test in Postman by importing this file there `DelayedDelivery_Process_Collection.postman_collection.json`
 - see also [https://github.com/miltonchandradas/integration](https://github.com/miltonchandradas/integration) (containing packages)
 
